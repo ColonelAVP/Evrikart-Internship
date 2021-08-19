@@ -33,8 +33,8 @@ Step8: Check the working of each API
 ```
 
 ## References
-* [https://www.django-rest-framework.org/](Django REST Framework Documentation)
-* [https://www.youtube.com/watch?v=B38aDwUpcFc](CURD operation using API VIEW)
+* [Django REST Framework Documentation](https://www.django-rest-framework.org/)
+* [CURD operation using API VIEW](https://www.youtube.com/watch?v=B38aDwUpcFc)
 
 
 
