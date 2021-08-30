@@ -1,0 +1,60 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <link rel='stylesheet' id='bootstrap-css' href="{% static 'Auth/bootstrap/bootstrap.min.css' %}" media='all' />
+</head>
+		
+<style>
+	body {background:#fafafa;}
+	.help ul li::before {content: "\2022"; color: #007bff; font-weight: bold; display: inline-block;  width: 1em; margin-left: -1em;}
+</style>
+		
+<body>
+
+<div class="mail-border" style="border-top:5px solid #00b894; width:100%;">
+</div>
+
+
+<div class="logo text-center mt-3" style="text-align:center;">
+	<img src="{{base}}static/Auth/images/logo1.png" style="width:10%;">
+</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="mail-box" style="background:#fff; width:80%; height:250px; display:flex; justify-content:center; margin:0 auto;">
+					<p style="text-align:center; font-size:24px; line-height:50px; margin:0 auto; word-break: break-all; padding:0 40px;">Thanks for signing up to Evrikart <br /> To get started, click the link below to confirm your account<br />
+						<a style="color:#00b894;"><a href="{{link}}">Confirm your account</a>
+						</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<div class="logo2 text-center mt-3" style="text-align:center;">
+	<img src="{{base}}static/Auth/images/logo2.png" style="width:7%;">
+</div>
+
+<div class="container">
+	<div class="col-md-12">
+		<div class="help text-center" style="text-align:center;">
+			<p>You're receiving this email because of your account on <a href="https://www.energe.io/">Energe.io</a> <a href="https://www.energenow.com/settings">Manage all notifications</a> . <a href="https://www.energenow.com/settings">Help</a></p>
+			<p>Everyone can contribute</p>
+			<ul style="display: -webkit-inline-box; justify-content:center;">
+<!--				<li style="list-style:none; margin:0 20px;"><a href="">Blog</a></li>-->
+				<li style="list-style:none; margin:0 20px;"><a href="https://twitter.com/energeofficial">Twitter</a></li>
+				<li style="list-style:none; margin:0 20px;"><a href="https://www.facebook.com/energeofficial/">Facebook</a></li>
+				<li style="list-style:none; margin:0 20px;"><a href="https://www.youtube.com/channel/UC_AB8qUMcAGYpA6RKCibkEA/featured">YouTube</a></li>
+				<li style="list-style:none; margin:0 20px;"><a href="https://www.linkedin.com/company/energeofficial">Linkedin</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+</body>
+</html>
